@@ -12,7 +12,7 @@ A helper repo for metrics in Erlang
 ```bash
 $ git clone https://github.com/ruanpienaar/erlang_metrics
 $ cd erlang_metrics && make
-$ /_build/default/rel/myproject_release/bin/myproject_release console
+$ /_build/default/rel/erlang_metrics/bin/erlang_metrics console
 ```
 
 Test erlang_metrics

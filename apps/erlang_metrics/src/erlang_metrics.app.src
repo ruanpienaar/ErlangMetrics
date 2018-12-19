@@ -1,0 +1,12 @@
+{application, erlang_metrics,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erlang_metrics_app, []}},
+  {env, []}
+ ]}.

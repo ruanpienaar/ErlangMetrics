@@ -85,8 +85,10 @@ Add
 ```
 erlang_vm_memory_system_bytes_total
 ```
+![prom_erlang_vm_memory_system_bytes_total_example](prom_erlang_vm_memory_system_bytes_total_example.png?raw=true "prom_erlang_vm_memory_system_bytes_total_example")
 
 To the query textbox on the graph web page
+
 
 ## 3. Grafana
 

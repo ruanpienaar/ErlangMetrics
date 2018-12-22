@@ -1,6 +1,6 @@
-.PHONY: release compile get-deps test clean dialyzer rebar3
+.PHONY: release compile get-deps test clean dialyzer rebar3 console
 
-console:
+console: release
 	@./_build/default/rel/erlang_metrics/bin/erlang_metrics console
 
 release: compile

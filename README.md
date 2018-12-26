@@ -128,10 +128,10 @@ View the graph on this [link](http://localhost:9090/graph?g0.range_input=15m&g0.
 #### 2.2.2 [Prometheus metric types]((https://prometheus.io/docs/concepts/metric_types/)) & ( [Erlang Client](https://github.com/deadtrickster/prometheus.erl) )
 
   - Prometheus
-    - [Counter]()
-    - Gauge
-    - Histogram
-    - Summary
+    - [Counter](https://prometheus.io/docs/concepts/metric_types/#counter)
+    - [Gauge](https://prometheus.io/docs/concepts/metric_types/#gauge)
+    - [Histogram](https://prometheus.io/docs/concepts/metric_types/#histogram)
+    - [Summary](https://prometheus.io/docs/concepts/metric_types/#summary)
 
 ## 3. Grafana
 

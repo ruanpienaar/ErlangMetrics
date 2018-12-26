@@ -6,8 +6,13 @@
   {applications, [
                   kernel,
                   stdlib,
+                  wx,
+                  observer,
+                  tools,
+                  runtime_tools,
                   prometheus,
-                  cowboy
+                  cowboy,
+                  gun
                  ]},
   {mod, { erlang_metrics_app, []}},
   {env, []}

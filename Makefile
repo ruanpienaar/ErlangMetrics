@@ -1,8 +1,5 @@
 .PHONY: release compile get-deps test clean dialyzer rebar3 console
 
-console: release
-	@./_build/default/rel/erlang_metrics/bin/erlang_metrics console
-
 release: compile
 	@./rebar3 release
 
@@ -23,3 +20,6 @@ dialyzer: compile
 
 rebar3:
 	@ls rebar3 || wget https://s3.amazonaws.com/rebar3/rebar3 && chmod +x rebar3
+
+console:
+	@./_build/default/rel/erlang_metrics/bin/erlang_metrics console
